@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import img1 from "../asserts/1.jpg"
+// import img1 from "../asserts/1.jpg"
 
 export default function Patient () {
   return (
@@ -29,8 +29,8 @@ export default function Patient () {
 
         <input type="submit" value="Book Appointment" />
       </form>
-      <div><Image src={img1} width={30} height={30}/>
- </div>
+      {/* <div><Image src={img1} width={30} height={30}/>
+ </div> */}
         </div>
     </>
     )
